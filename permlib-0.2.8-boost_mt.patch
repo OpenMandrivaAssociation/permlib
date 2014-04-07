@@ -1,0 +1,12 @@
+diff -up permlib-0.2.8/test/CMakeLists.txt\~ permlib-0.2.8/test/CMakeLists.txt
+--- permlib-0.2.8/test/CMakeLists.txt~	2012-09-27 12:56:49.000000000 +0200
++++ permlib-0.2.8/test/CMakeLists.txt	2013-07-30 19:52:41.803357920 +0200
+@@ -9,5 +9,5 @@ set(executables test-base test-trans tes
+ foreach(_exec ${executables})
+   add_executable (${_exec} "${_exec}.cpp")
+   add_test(${_exec} ${_exec})
+-  target_link_libraries(${_exec} boost_unit_test_framework-mt)
++  target_link_libraries(${_exec} boost_unit_test_framework)
+ endforeach(_exec)
+
+Diff finished.  Tue Jul 30 19:52:44 2013
