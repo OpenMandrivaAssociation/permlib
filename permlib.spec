@@ -4,7 +4,7 @@ Release:        6%{?dist}
 Summary:        Library for permutation computations
 
 License:        BSD
-URL:            http://www.math.uni-rostock.de/~rehn/software/%{name}.html
+URL:            https://www.math.uni-rostock.de/~rehn/software/%{name}.html
 Source0:        http://www.math.uni-rostock.de/~rehn/software/%{name}-%{version}.tar.gz
 # Doxygen config file written by Jerry James <loganjerry@gmail.com>
 Source1:        %{name}-Doxyfile
